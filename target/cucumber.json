@@ -1,0 +1,433 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5565535334,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValtechStepdefs.startUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Display Latest News Section",
+        "description": "",
+        "id": "valtech-section-headings-and-contact-locations-assertion-scenarios.;display-latest-news-section;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1042587354,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValtechStepdefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7844065327,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on valtech home page",
+            "match": {
+              "location": "ValtechStepdefs.iAmOnValtechHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 209369932,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see section named \"LATEST NEWS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LATEST NEWS",
+                  "offset": 28
+                }
+              ],
+              "location": "ValtechStepdefs.iShouldSeeSectionNamed(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@1Test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3610585975,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValtechStepdefs.startUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Display About, Work, Services Section Headings",
+        "description": "",
+        "id": "valtech-section-headings-and-contact-locations-assertion-scenarios.;display-about,-work,-services-section-headings;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1070851928,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValtechStepdefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4511265021,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on valtech home page",
+            "match": {
+              "location": "ValtechStepdefs.iAmOnValtechHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3369457708,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Navigation \"ABOUT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABOUT",
+                  "offset": 23
+                }
+              ],
+              "location": "ValtechStepdefs.iClickOnNavigationTab(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2977588196,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see header named \"About\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "About",
+                  "offset": 27
+                }
+              ],
+              "location": "ValtechStepdefs.iShouldSeeHeaderNamed(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@2Test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3844807186,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValtechStepdefs.startUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Display About, Work, Services Section Headings",
+        "description": "",
+        "id": "valtech-section-headings-and-contact-locations-assertion-scenarios.;display-about,-work,-services-section-headings;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 907615662,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValtechStepdefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3730831729,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on valtech home page",
+            "match": {
+              "location": "ValtechStepdefs.iAmOnValtechHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2994063068,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Navigation \"SERVICES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SERVICES",
+                  "offset": 23
+                }
+              ],
+              "location": "ValtechStepdefs.iClickOnNavigationTab(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1884563814,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see header named \"Services\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Services",
+                  "offset": 27
+                }
+              ],
+              "location": "ValtechStepdefs.iShouldSeeHeaderNamed(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@2Test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3799708922,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValtechStepdefs.startUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Display About, Work, Services Section Headings",
+        "description": "",
+        "id": "valtech-section-headings-and-contact-locations-assertion-scenarios.;display-about,-work,-services-section-headings;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1118258702,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValtechStepdefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5028790075,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on valtech home page",
+            "match": {
+              "location": "ValtechStepdefs.iAmOnValtechHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10625143589,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Navigation \"WORK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WORK",
+                  "offset": 23
+                }
+              ],
+              "location": "ValtechStepdefs.iClickOnNavigationTab(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2135300542,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see header named \"Work\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Work",
+                  "offset": 27
+                }
+              ],
+              "location": "ValtechStepdefs.iShouldSeeHeaderNamed(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@2Test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3692088334,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValtechStepdefs.startUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Count All Valtech Locations From Contact Page",
+        "description": "",
+        "id": "valtech-section-headings-and-contact-locations-assertion-scenarios.;count-all-valtech-locations-from-contact-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1030040603,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ValtechStepdefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4917353855,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am on valtech home page",
+            "match": {
+              "location": "ValtechStepdefs.iAmOnValtechHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5464136598,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on contact page icon",
+            "match": {
+              "location": "ValtechStepdefs.iClikcOnContactPageIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241175070,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see count contact locations",
+            "match": {
+              "location": "ValtechStepdefs.iShouldSeeCountContactLocations()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@3Test"
+          }
+        ]
+      }
+    ],
+    "name": "Valtech Section Headings And Contact Locations Assertion Scenarios.",
+    "description": "",
+    "id": "valtech-section-headings-and-contact-locations-assertion-scenarios.",
+    "keyword": "Feature",
+    "uri": "valtech.feature"
+  }
+]
